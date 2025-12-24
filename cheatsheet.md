@@ -1,93 +1,316 @@
-# Basic Commands
-### Help & Documentation
-- help(function)              # Show documentation for a function
-- ?function                   # Shortcut for `help`
-- help.search("topic")        # Search for functions on a topic
+# R Cheat Sheet – COMPLETE LEARNING VERSION 📘 (R 4+)
 
-### Workspace
-- getwd()                     # Show the current working directory
-- setwd("path")               # Change working directory
-- ls()                        # Show objects in the workspace
-- rm(object)                  # Remove an object
-- rm(list = ls())             # Clear the workspace
+This cheat sheet covers **core R concepts**, data types, vectors, data frames, functions, packages, and modern R features.  
+Suitable for beginners and refreshers (Data Analysis / Statistics).
 
-### Packages
-- install.packages("package") # Install a package
-- library(package)            # Load a package
-- update.packages()           # Update all installed packages
+---
 
-# Data Structures
-### Vectors
-- c(1, 2, 3)                  # Create a vector
-- seq(1, 10, by = 2)          # Create a sequence
-- rep(1, times = 5)           # Repeat elements
-- length(vector)              # Length of a vector
+## Table of Contents
 
-### Matrices
-- matrix(1:6, nrow = 2, ncol = 3) # Create a matrix
-- t(matrix)                     # Transpose a matrix
+- [R Cheat Sheet – COMPLETE LEARNING VERSION 📘 (R 4+)](#r-cheat-sheet--complete-learning-version--r-4)
+  - [Table of Contents](#table-of-contents)
+  - [1. Basics](#1-basics)
+  - [2. Variables \& Data Types](#2-variables--data-types)
+  - [3. Operators](#3-operators)
+  - [4. Control Structures](#4-control-structures)
+  - [5. Functions](#5-functions)
+  - [6. Vectors](#6-vectors)
+  - [7. Lists](#7-lists)
+  - [8. Matrices \& Arrays](#8-matrices--arrays)
+  - [9. Data Frames](#9-data-frames)
+  - [10. Factors](#10-factors)
+  - [11. Packages \& Libraries](#11-packages--libraries)
+  - [12. Apply Family](#12-apply-family)
+  - [13. Plotting](#13-plotting)
+  - [14. Statistical Functions](#14-statistical-functions)
+  - [15. Strings \& Regular Expressions](#15-strings--regular-expressions)
+  - [16. Dates \& Times](#16-dates--times)
+  - [17. File I/O](#17-file-io)
+  - [18. Modern R Features](#18-modern-r-features)
+  - [19. Best Practices](#19-best-practices)
+  - [End](#end)
 
-### Lists
-- list(a = 1, b = 2)           # Create a list
+---
 
-### Data Frames
-- data.frame(a = 1:3, b = c("X", "Y", "Z")) # Create a data frame
-- head(df)                     # Show the first few rows of a data frame
-- tail(df)                     # Show the last few rows
-- str(df)                      # Structure of a data frame
-- summary(df)                  # Summary of a data frame
+## 1. Basics
 
-### Factors
-- factor(c("A", "B", "A"))     # Create a factor
-- levels(factor)               # Show levels of a factor
+~~~r
+# Print
+print("Hello World")
+cat("Hello World\n")
 
-# Data Manipulation
-### Indexing
-- vector[2]                   # Access the second element of a vector
-- matrix[1, 2]                # Access the element at row 1, column 2
-- dataframe$column            # Access a column in a data frame
+# Comments
+# single-line
+# multi-line with multiple lines starting with #
+~~~
 
-### Filtering
-- subset(df, column > 10)     # Filter rows based on a condition
+---
 
-### Sorting
-- sort(vector)                # Sort a vector
-- order(df$column)            # Get sorted indices based on a column
+## 2. Variables & Data Types
 
-### Merging
-- merge(df1, df2, by = "column") # Merge two data frames by a common column
+~~~r
+# Assignment
+x <- 10
+y = 5
 
-# Statistics & Calculations
-### Basic Operations
-- mean(vector)                # Calculate the mean
-- median(vector)              # Calculate the median
-- sd(vector)                  # Calculate the standard deviation
-- sum(vector)                 # Sum of the elements
+# Basic types
+num <- 3.14       # numeric
+int <- 5L         # integer
+bool <- TRUE      # logical
+text <- "R"       # character
+null_val <- NULL  # null
+na_val <- NA      # missing value
+~~~
 
-### Tables
-- table(vector)               # Create a frequency table
+---
 
-### Random Numbers
-- runif(10, min = 0, max = 1) # Generate random numbers from a uniform distribution
-- rnorm(10, mean = 0, sd = 1) # Generate random numbers from a normal distribution
+## 3. Operators
 
-# Plotting & Visualization
-### Basic Plots
-- plot(x, y)                  # Create a scatter plot
-- hist(vector)                # Create a histogram
-- boxplot(vector)             # Create a box plot
+~~~r
+# Arithmetic
+5 + 3
+5 - 3
+5 * 3
+5 / 2
+5 %% 2     # modulo
+5 ^ 2      # exponent
 
-### Labels & Titles
-- plot(x, y, main = "Title", xlab = "X-Axis", ylab = "Y-Axis")
+# Comparison
+1 == 1
+1 != 2
+3 > 2
 
-### Colors & Layout
-- barplot(vector, col = "blue") # Create a bar plot with color
+# Logical
+TRUE & FALSE
+TRUE | FALSE
+!TRUE
+~~~
 
-# Programming
-### Loops
-- for (i in 1:10) { print(i) }   # For loop
-- while (condition) { ... }       # While loop
+---
 
-### Functions
-- my_function <- function(x) { return(x^2) }  # Create a function
-- my_function(2)                            # Call the function
+## 4. Control Structures
+
+~~~r
+x <- 5
+
+if (x > 0) {
+  print("Positive")
+} else if (x < 0) {
+  print("Negative")
+} else {
+  print("Zero")
+}
+
+# Switch
+role <- "admin"
+switch(role,
+       admin = print("Admin"),
+       user = print("User"),
+       print("Guest"))
+~~~
+
+---
+
+## 5. Functions
+
+~~~r
+# Function definition
+add <- function(a, b) {
+  return(a + b)
+}
+
+greet <- function(name = "Guest") {
+  paste("Hello", name)
+}
+
+# Anonymous function
+sapply(1:5, function(x) x^2)
+~~~
+
+---
+
+## 6. Vectors
+
+~~~r
+v <- c(1, 2, 3, 4)
+
+# Access
+v[1]       # first element
+v[2:4]     # range
+
+# Operations
+v * 2
+v + 1
+v > 2
+~~~
+
+---
+
+## 7. Lists
+
+~~~r
+lst <- list(name="Max", age=30, scores=c(90, 80, 70))
+lst$name
+lst$scores[2]
+~~~
+
+---
+
+## 8. Matrices & Arrays
+
+~~~r
+# Matrix
+m <- matrix(1:6, nrow=2, ncol=3)
+m[1,2]      # row 1, column 2
+
+# Array
+a <- array(1:8, dim=c(2,2,2))
+a[1,2,1]
+~~~
+
+---
+
+## 9. Data Frames
+
+~~~r
+df <- data.frame(
+  name = c("Max","Anna"),
+  age = c(30,25),
+  active = c(TRUE,FALSE)
+)
+
+df$name
+df[1, "age"]
+~~~
+
+---
+
+## 10. Factors
+
+~~~r
+gender <- factor(c("male","female","male"))
+levels(gender)
+table(gender)
+~~~
+
+---
+
+## 11. Packages & Libraries
+
+~~~r
+# Install package
+install.packages("dplyr")
+
+# Load package
+library(dplyr)
+~~~
+
+---
+
+## 12. Apply Family
+
+~~~r
+# Apply over rows/columns
+apply(matrix(1:6,2,3), 1, sum)
+lapply(list(1,2,3), function(x) x^2)
+sapply(list(1,2,3), function(x) x^2)
+tapply(c(1,2,3,4), c("a","a","b","b"), sum)
+~~~
+
+---
+
+## 13. Plotting
+
+~~~r
+# Base plot
+x <- 1:10
+y <- x^2
+plot(x, y, type="b", col="blue", main="Plot", xlab="X-axis", ylab="Y-axis")
+
+# Histogram
+hist(x)
+~~~
+
+---
+
+## 14. Statistical Functions
+
+~~~r
+mean(x)
+median(x)
+sd(x)
+var(x)
+summary(x)
+cor(x, y)
+~~~
+
+---
+
+## 15. Strings & Regular Expressions
+
+~~~r
+text <- "Hello R"
+
+nchar(text)
+toupper(text)
+tolower(text)
+substr(text, 1, 5)
+
+grepl("R", text)
+gsub("R", "World", text)
+~~~
+
+---
+
+## 16. Dates & Times
+
+~~~r
+today <- Sys.Date()
+now <- Sys.time()
+
+format(today, "%Y-%m-%d")
+as.Date("2025-12-24")
+~~~
+
+---
+
+## 17. File I/O
+
+~~~r
+# Read CSV
+data <- read.csv("data.csv")
+
+# Write CSV
+write.csv(data, "output.csv", row.names=FALSE)
+
+# Read table
+read.table("file.txt", header=TRUE)
+~~~
+
+---
+
+## 18. Modern R Features
+
+~~~r
+# Pipes (magrittr or tidyverse)
+library(dplyr)
+data %>% filter(age > 20) %>% select(name, age)
+
+# Tidyverse functions for concise data manipulation
+~~~
+
+---
+
+## 19. Best Practices
+
+- Use consistent style (tidyverse style guide)
+- Comment your code
+- Vectorize operations instead of loops
+- Handle missing data carefully
+- Use packages for efficient workflows
+- Keep functions small and reusable
+- Always check data types
+
+---
+
+## End
