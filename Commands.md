@@ -35,7 +35,7 @@
 - t(matrix)                     # Transpose a matrix
 
 ### Lists
-- list(a = 1, b = 2)           # Create a list
+- list(a = 1, b = 2)           # Create a list (can hold different data types)
 
 ### Data Frames
 - data.frame(a = 1:3, b = c("X", "Y", "Z")) # Create a data frame
@@ -48,11 +48,16 @@
 - factor(c("A", "B", "A"))     # Create a factor
 - levels(factor)               # Show levels of a factor
 
+---
+
 # Data Manipulation
 ### Indexing
 - vector[2]                   # Access the second element of a vector
 - matrix[1, 2]                # Access the element at row 1, column 2
 - dataframe$column            # Access a column in a data frame
+- is.na(x)                    # Check for missing values
+- x %in% c(1, 2, 3)           # Check if x is in a specific set
+- ==, !=, >, <, &, |          # Logical operators (Equal, Not Equal, etc.)
 
 ### Filtering
 - subset(df, column > 10)     # Filter rows based on a condition
@@ -63,6 +68,17 @@
 
 ### Merging
 - merge(df1, df2, by = "column") # Merge two data frames by a common column
+
+### Tidyverse (Modern Standard)
+*Requires library(dplyr)*
+
+- df %>% filter(col > 10)     # Filter rows
+- df %>% select(col1, col2)   # Select specific columns
+- df %>% mutate(new = a + b)  # Create new columns
+- df %>% arrange(col)         # Sort rows
+- df %>% group_by(cat) %>% summarize(m = mean(val)) # Aggregate data
+
+---
 
 # Statistics & Calculations
 ### Basic Operations
@@ -78,6 +94,12 @@
 - runif(10, min = 0, max = 1) # Generate random numbers from a uniform distribution
 - rnorm(10, mean = 0, sd = 1) # Generate random numbers from a normal distribution
 
+### Modeling
+- lm(y ~ x, data = df)        # Fit a Linear Model
+- predict(model, newdata)     # Use model to predict on new data
+
+---
+
 # Plotting & Visualization
 ### Basic Plots
 - plot(x, y)                  # Create a scatter plot
@@ -90,11 +112,16 @@
 ### Colors & Layout
 - barplot(vector, col = "blue") # Create a bar plot with color
 
+---
+
 # Programming
-### Loops
-- for (i in 1:10) { print(i) }   # For loop
-- while (condition) { ... }       # While loop
+### Loops & Conditionals
+- if (cond) { } else { }      # Conditional logic
+- for (i in 1:10) { print(i) } # For loop
+- while (condition) { }       # While loop
 
 ### Functions
-- my_function <- function(x) { return(x^2) }  # Create a function
-- my_function(2)                            # Call the function
+- my_func <- function(x) {    # Create a function
+    return(x^2) 
+  }
+- my_func(2)                  # Call the function
