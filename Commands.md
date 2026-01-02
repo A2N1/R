@@ -3,6 +3,7 @@
 - help(function)              # Show documentation for a function
 - ?function                   # Shortcut for `help`
 - help.search("topic")        # Search for functions on a topic
+- args(function)              # See the arguments a function requires
 
 ### Workspace
 - getwd()                     # Show the current working directory
@@ -10,11 +11,17 @@
 - ls()                        # Show objects in the workspace
 - rm(object)                  # Remove an object
 - rm(list = ls())             # Clear the workspace
+- read.csv("file.csv")        # Import data from a CSV
+- write.csv(df, "file.csv")   # Export data to a CSV
+- saveRDS(obj, "file.rds")    # Save a single R object (efficient)
+- readRDS("file.rds")         # Load a saved R object
 
 ### Packages
 - install.packages("package") # Install a package
 - library(package)            # Load a package
 - update.packages()           # Update all installed packages
+
+---
 
 # Data Structures
 ### Vectors
