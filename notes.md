@@ -12,4 +12,4 @@ R Projekte
 
 - music
 - films
-- 
+- series
