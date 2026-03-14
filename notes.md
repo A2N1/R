@@ -5,3 +5,7 @@ R Projekte
   - starwars, Starwars characters
   - Fuel economy data from 1999 to 2008 for 38 popular models of cars - ähnlich wie das Schulprojekt
   - world_bank_pop, Population data from the World Bank
+
+- stocks
+- msci world
+- s&p 500 data
