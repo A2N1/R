@@ -9,3 +9,5 @@ R Projekte
 - stocks
 - msci world
 - s&p 500 data
+
+- music
