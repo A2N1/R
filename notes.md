@@ -12,4 +12,4 @@ R Projekte
 
 - music
 - films (Brücke zu Letterboxd?)
-- series 
+- series (Brücke zu serializd?)
