@@ -9,6 +9,7 @@ R Projekte
 - stocks
 - msci world
 - s&p 500 data
+- proof with data, that investing is better than just save it at the bank
 
 - music (Brücke zu LastFM)
 - films (Brücke zu Letterboxd?)
