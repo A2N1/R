@@ -10,6 +10,7 @@ R Projekte
 - msci world
 - s&p 500 data
 - proof with data, that investing is better than just save it at the bank
+- which is historical the best investment strategy?
 
 - music (Brücke zu LastFM)
 - films (Brücke zu Letterboxd?)
