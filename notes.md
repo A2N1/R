@@ -10,6 +10,6 @@ R Projekte
 - msci world
 - s&p 500 data
 
-- music
+- music (Brücke zu LastFM)
 - films (Brücke zu Letterboxd?)
 - series (Brücke zu serializd?)
