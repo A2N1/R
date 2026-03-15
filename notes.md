@@ -11,5 +11,5 @@ R Projekte
 - s&p 500 data
 
 - music
-- films
-- series
+- films (Brücke zu Letterboxd?)
+- series 
