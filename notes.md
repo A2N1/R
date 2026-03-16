@@ -15,6 +15,8 @@ R Projekte
 - pick some of the famous stocks and look on the data
   - berkshire hathaway
   - Apple
+  - Gamestop?
+  - Amazon
 
 - music (Brücke zu LastFM)
 - films (Brücke zu Letterboxd?)
