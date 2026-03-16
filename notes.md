@@ -12,6 +12,8 @@ R Projekte
 - proof with data, that investing is better than just save it at the bank
 - which is historical the best investment strategy?
 
+- pick some of the famous stocks and look on the data
+
 - music (Brücke zu LastFM)
 - films (Brücke zu Letterboxd?)
 - series (Brücke zu serializd?)
