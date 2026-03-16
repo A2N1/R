@@ -18,6 +18,7 @@ R Projekte
   - Gamestop?
   - Amazon
   - Meta
+  - Alphabet
 
 - music (Brücke zu LastFM)
 - films (Brücke zu Letterboxd?)
