@@ -13,6 +13,7 @@ R Projekte
 - which is historical the best investment strategy?
 
 - pick some of the famous stocks and look on the data
+  - berkshire hathaway
 
 - music (Brücke zu LastFM)
 - films (Brücke zu Letterboxd?)
