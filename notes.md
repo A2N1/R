@@ -17,6 +17,7 @@ R Projekte
   - Apple
   - Gamestop?
   - Amazon
+  - Meta
 
 - music (Brücke zu LastFM)
 - films (Brücke zu Letterboxd?)
