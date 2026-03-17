@@ -21,7 +21,9 @@ R Projekte
   - Alphabet
 
 - Warren Buffett strategy
-  - kopieren und nutzen für einzelaktien
+  - kopieren und nutzen für Einzelaktien
+
+- Investment Strategie für immer festigen. ETFs, Aktien, ...
 
 - music (Brücke zu LastFM)
 - films (Brücke zu Letterboxd?)
