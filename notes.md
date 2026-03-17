@@ -24,6 +24,8 @@ R Projekte
   - kopieren und nutzen für Einzelaktien
 
 - Investment Strategie für immer festigen. ETFs, Aktien, ...
+  - TradeRepublic
+  - ScalableCapital
 
 - music (Brücke zu LastFM)
 - films (Brücke zu Letterboxd?)
