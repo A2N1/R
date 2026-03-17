@@ -21,6 +21,7 @@ R Projekte
   - Alphabet
 
 - Warren Buffett strategy
+  - kopieren und nutzen für einzelaktien
 
 - music (Brücke zu LastFM)
 - films (Brücke zu Letterboxd?)
