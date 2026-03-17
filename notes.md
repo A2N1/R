@@ -20,6 +20,8 @@ R Projekte
   - Meta
   - Alphabet
 
+- Warren Buffett strategy
+
 - music (Brücke zu LastFM)
 - films (Brücke zu Letterboxd?)
 - series (Brücke zu serializd?)
