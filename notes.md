@@ -15,10 +15,13 @@ R Projekte
 - pick some of the famous stocks and look on the data
   - berkshire hathaway
   - Apple
-  - Gamestop?
+  - Gamestop
   - Amazon
   - Meta
   - Alphabet
+  - Wirecard
+  - Telecom
+  - 
 
 - Warren Buffett strategy
   - kopieren und nutzen für Einzelaktien
