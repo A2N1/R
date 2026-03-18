@@ -21,7 +21,6 @@ R Projekte
   - Alphabet
   - Wirecard
   - Telecom
-  - 
 
 - Warren Buffett strategy
   - kopieren und nutzen für Einzelaktien
@@ -33,3 +32,5 @@ R Projekte
 - music (Brücke zu LastFM)
 - films (Brücke zu Letterboxd?)
 - series (Brücke zu serializd?)
+
+- data file with what people do to get older. What is there secret?
