@@ -34,3 +34,5 @@ R Projekte
 - series (Brücke zu serializd?)
 
 - data file with what people do to get older. What is there secret?
+
+- why some companies have success and others not?
