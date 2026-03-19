@@ -38,3 +38,5 @@ R Projekte
 - why some companies have success and others not?
 
 - Plan aufstellen
+
+- Alterspyramide DE
