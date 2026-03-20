@@ -44,3 +44,4 @@ R Projekte
 - Bildungsplan DE
 - Sportplan
 - Ernährungsplan
+- Vermögensaufbau
