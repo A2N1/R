@@ -43,3 +43,4 @@ R Projekte
 - Vermñgensverteilung DE
 - Bildungsplan DE
 - Sportplan
+- Ernährungsplan
