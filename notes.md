@@ -48,3 +48,4 @@ R Projekte
 - Parteien DE
 - Wirtschaft
 - Bevölkerung der Bundesländer
+- Kanzler und ihre Auswirkungen + geschafften Ziele
