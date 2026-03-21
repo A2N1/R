@@ -46,3 +46,4 @@ R Projekte
 - Ernährungsplan
 - Vermögensaufbau
 - Parteien DE
+- Wirtschaft
