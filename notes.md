@@ -45,3 +45,4 @@ R Projekte
 - Sportplan
 - Ernährungsplan
 - Vermögensaufbau
+- Parteien DE
