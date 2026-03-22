@@ -52,3 +52,4 @@ R Projekte
 - USA als Weltmacht
 - Wirtschaftswunder Deutschland
 - Länder, welche gute Partner für Deutschland wären und sind
+- Fußballclubs
