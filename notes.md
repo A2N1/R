@@ -49,3 +49,4 @@ R Projekte
 - Wirtschaft
 - Bevölkerung der Bundesländer
 - Kanzler und ihre Auswirkungen + geschafften Ziele
+- USA als Weltmacht
