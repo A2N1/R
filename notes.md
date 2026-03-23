@@ -56,3 +56,4 @@ R Projekte
 - Olympische Spiele
 - Gedächtnistraining
 - Schach
+- Zauberwürfel
