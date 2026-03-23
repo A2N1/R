@@ -55,3 +55,4 @@ R Projekte
 - Fußballclubs
 - Olympische Spiele
 - Gedächtnistraining
+- Schach
