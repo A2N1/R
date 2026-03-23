@@ -54,3 +54,4 @@ R Projekte
 - Länder, welche gute Partner für Deutschland wären und sind
 - Fußballclubs
 - Olympische Spiele
+- Gedächtnistraining
