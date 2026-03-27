@@ -67,3 +67,4 @@ R Projekte
 - Lernen
 - Religionen
 - Mathematik
+- Sprachen
