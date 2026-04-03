@@ -79,3 +79,4 @@ R Projekte
 - Gescheiterte Unternehmen
 - Erfolgreiche Unternehmungen
 - Wie man erfolgreich im Leben wird.
+- Aus Fehlern in der Vergangenheit sollten wir gelernt haben?
